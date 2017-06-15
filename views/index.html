@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="styles/beach.css">
     <script src="vendors/angular.min.js" charset="utf-8"></script>
     <script src="scripts/giphyExample.js" charset="utf-8"></script>
+    <script src="scripts/services/giphyService.js" charset="utf-8"></script>
   </head>
   <body ng-app='myApp'>
     <h1>Giphy Example</h1>
-    <div ng-controller='GiphyController as gc'>
+    <div ng-controller='GiphyController as gc' ng-init='gc.getRandom()'>
+      <p ng-repeat='image in gc.theGoodStuff'>
+        Image {{ $index }}
+        <img ng-src='{{ image.images.downsized_large.url }}' />
+      </p>
     </div>
   </body>
 </html>
