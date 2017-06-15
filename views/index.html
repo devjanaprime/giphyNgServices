@@ -11,6 +11,10 @@
   <body ng-app='myApp'>
     <h1>Giphy Example</h1>
     <div ng-controller='GiphyController as gc' ng-init='gc.getRandom()'>
+      <p ng-repeat='image in gc.theGoodStuff'>
+        Image {{ $index }}
+        <img ng-src='{{ image.images.downsized_large.url }}' />
+      </p>
     </div>
   </body>
 </html>
