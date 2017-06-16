@@ -8,25 +8,25 @@ Part 1:
 
 Setup basic Node/Express Project with AngularJS.
 
-[video](https://drive.google.com/open?id=0B4chxONqp0heVmM1cW15YzZjU1U)
+[video](https://vimeo.com/221889026)
 
 Part 2:
 ---
 
 Controller successfully talking to a Service
 
-[video](https://drive.google.com/open?id=0B4chxONqp0heVmk2NWRBUUNGZFU)
+[video](https://vimeo.com/221890546)
 
 Part 3:
 ---
 
 Service using $http to get data from the Giphy API
 
-[video](https://drive.google.com/open?id=0B4chxONqp0heX3U0WHhjYXpMRGs)
+[video](https://vimeo.com/221889085)
 
 Part 4:
 ---
 
 Display images on DOM
 
-[video](https://drive.google.com/open?id=0B4chxONqp0heU1BSM1Bwb01TUkE)
+[video](https://vimeo.com/221889127)
